@@ -4,7 +4,7 @@ import java.net.BindException;
 import java.net.InetSocketAddress;
 
 public class Server {
-    private HttpServer hs;
+    private final HttpServer hs;
     /**
      * Create a Server instance which will bind to the specified port.
      * A maximum backlog can also be specified. This is the maximum number of queued incoming connections to allow on the listening socket-
@@ -42,5 +42,11 @@ public class Server {
      */
     public void createContext(String path, Handler handler) {
         this.hs.createContext(path, handler);
+    }
+    /**
+     * 
+     */
+    public void removeContext(String path) {
+        this.hs.removeContext(path);
     }
 }
