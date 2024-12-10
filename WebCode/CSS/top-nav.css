@@ -36,6 +36,10 @@
     transition: 100ms;
 }
 
+.nav-top a {
+    text-decoration: none;
+}
+
 .nav-top h1:hover {
     font-size: xx-large;
 }

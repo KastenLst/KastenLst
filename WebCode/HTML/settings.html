@@ -1,28 +1,18 @@
+<!DOCTYPE html>
 <html lang="en-en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="/CSS/top-nav.css" rel="stylesheet">
         <link href="/CSS/navbar.css" rel="stylesheet">
         <link href="/CSS/global.css" rel="stylesheet">
+        <link href="/CSS/settings.css" rel="stylesheet">
         <link href="/img/icon.png" rel="icon">
-        <title>KastenLst - Home</title>
+        <title>KastenLst - Settings</title>
     </head>
     <body>
         <video class="background" id="bvid">
             <source src="/media/background.mp4" type="video/mp4">
         </video>
-        <div class="nav-top">
-            <div class="nav-top-sm nav-top-l">
-                <img src="/img/randchatbtn.png" title="join random chat" alt="random chat icon">
-            </div>
-            <div class="nav-top-lx">
-                <a href="/HTML/index.html"><h1>KastenLst</h1></a>
-            </div>
-            <div class="nav-top-sm nav-top-r">
-                <img src="/img/search.png" title="search" alt="search blob">
-            </div>
-        </div>
         <div class="navbar">
             <div class="navbar-item">
                 <img src="/img/msgbutton.png" title="Message Button" alt="Message">
@@ -34,7 +24,17 @@
                 <a href="/HTML/settings.html"><img src="/img/profile.png" title="Profile" alt="Profile"></a>
             </div>
         </div>
+        <div class="setting">
+            <label for="backgroundmusselector">Select Background Music: </label>
+            <select id="backgroundmusselector" name="Background Music Selector">
+                <option>None</option>
+                <option>Hard Theme</option>
+                <option>Soft Theme</option>
+            </select>
+            <button type="submit" onclick="saveBgMus()">Save</button>
+        </div>
         <script src="/JavaScript/global.js"></script>
         <script src="/JavaScript/backmus.js"></script>
+        <script src="/JavaScript/settings.js"></script>
     </body>
 </html>
