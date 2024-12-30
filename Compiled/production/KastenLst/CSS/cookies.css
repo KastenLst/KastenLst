@@ -1,0 +1,23 @@
+img {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+}
+
+h1, h2, p, button {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    color: orange;
+    font-size: xx-large;
+    font-family: "KastenLst Font";
+    border-radius: 25px;
+}
+
+button {
+    margin-top: 2.5%;
+    background-color: blue;
+}

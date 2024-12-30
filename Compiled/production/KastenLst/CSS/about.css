@@ -1,0 +1,23 @@
+h1 {
+    position: relative;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    color: orange;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 0;
+}
+
+p {
+    position: relative;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    color: orange;
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+}

@@ -48,4 +48,5 @@ button {
     color: orange;
     background-color: darkblue;
     border-radius: 25px;
+    border: black 4px solid;
 }

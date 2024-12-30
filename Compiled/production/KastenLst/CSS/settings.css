@@ -1,0 +1,52 @@
+label {
+    position: relative;
+    background-color: transparent;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+select {
+    background-color: transparent;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: black 4px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "KastenLst Font", serif;
+    font-size: larger;
+    color: orange;
+    cursor: pointer;
+}
+
+button {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    font-family: "KastenLst Font", serif;
+    font-size: larger;
+    color: orange;
+    border: black 4px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.setting {
+    position: relative;
+    width: 90%;
+    height: 30%;
+    margin: 5%;
+    text-align: center;
+    font-size: larger;
+    color: orange;
+    background-color: darkblue;
+    border-radius: 25px;
+    border: black 4px solid;
+}

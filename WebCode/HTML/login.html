@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmelde-Seite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #C0EAFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #00A2E8;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #333;
+        }
+        .button {
+            background-color: #FF7F27;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .button:hover {
+            background-color: #666;
+        }
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="main-container">
+    <h2>Sign in</h2>
+    <button class="button" onclick="showRegisterForm()">Registrieren</button>
+    <button class="button" onclick="showLoginForm()">Anmelden</button>
+</div>
+
+<div class="container hidden" id="register-step1">
+    <h2>Registrieren - Schritt 1</h2>
+    <div class="form-group">
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" placeholder="E-Mail eingeben">
+    </div>
+    <div class="form-group">
+        <label for="nickname">Spitzname:</label>
+        <input type="text" id="nickname" placeholder="Spitzname eingeben">
+    </div>
+    <button class="button" onclick="showRegisterStep2()">Weiter</button>
+</div>
+
+<div class="container hidden" id="register-step2">
+    <h2>Registrieren - Schritt 2</h2>
+    <div class="form-group">
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" placeholder="Passwort eingeben">
+    </div>
+    <div class="form-group">
+        <label for="confirm-password">Passwort bestätigen:</label>
+        <input type="password" id="confirm-password" placeholder="Passwort bestätigen">
+    </div>
+    <button class="button" onclick="submitRegistration()">Registrieren</button>
+</div>
+
+<div class="container hidden" id="login-form">
+    <h2>Anmelden</h2>
+    <div class="form-group">
+        <label for="username">Benutzername:</label>
+        <input type="text" id="username" placeholder="Benutzername eingeben">
+    </div>
+    <div class="form-group">
+        <label for="login-password">Passwort:</label>
+        <input type="password" id="login-password" placeholder="Passwort eingeben">
+    </div>
+    <button class="button" onclick="submitLogin()">Anmelden</button>
+</div>
+
+<script>
+    function showRegisterForm() {
+        document.getElementById('main-container').classList.add('hidden');
+        document.getElementById('register-step1').classList.remove('hidden');
+    }
+
+    function showRegisterStep2() {
+        document.getElementById('register-step1').classList.add('hidden');
+        document.getElementById('register-step2').classList.remove('hidden');
+    }
+
+    function showLoginForm() {
+        document.getElementById('main-container').classList.add('hidden');
+        document.getElementById('login-form').classList.remove('hidden');
+    }
+
+    function submitRegistration() {
+        const email = document.getElementById('email').value;
+        const nickname = document.getElementById('nickname').value;
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirm-password').value;
+        
+        if (password === confirmPassword) {
+            alert(`Registrierung erfolgreich!\nE-Mail: ${email}\nSpitzname: ${nickname}`);
+            location.reload();  // Seite neuladen für Demo-Zwecke
+        } else {
+            alert("Passwörter stimmen nicht überein!");
+        }
+    }
+
+    function submitLogin() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('login-password').value;
+        
+        alert(`Anmeldung erfolgreich!\nBenutzername: ${username}`);
+        location.reload();  // Seite neuladen für Demo-Zwecke
+    }
+</script>
+
+</body>
+</html>

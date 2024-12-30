@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "KastenLst Font";
+    src: url("/font.ttf") format("truetype");
+}
+
+body {
+    font-family: "KastenLst Font", serif;
+}
+
+.background {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
