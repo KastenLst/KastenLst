@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e0ee3d6-9bb1-4cd9-8b69-cf62f9b4f59f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/CSS/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/CSS/cookies.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/CSS/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/CSS/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/CSS/settings.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/CSS/top-nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/HTML/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/HTML/cookiecoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/HTML/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/HTML/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/HTML/settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/Handlers/Default.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/JavaScript/backmus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/JavaScript/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/JavaScript/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/JavaScript/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../WebCode/media/font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/msgbutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/randchatbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/media/Backmus-hard.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/media/Backmus-soft.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/media/background.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compiled/production/KastenLst/urls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebCode/CSS/cookies.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebCode/CSS/cookies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebCode/CSS/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebCode/CSS/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebCode/CSS/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebCode/CSS/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebCode/CSS/top-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebCode/CSS/top-nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebCode/font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebCode/urls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer/Handlers/Default.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer/Server.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2rJW5hRURANcKfEsAlbh8IYEIpn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gluec/OneDrive/Dokumente/KastenLst/APIServer",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e0ee3d6-9bb1-4cd9-8b69-cf62f9b4f59f" name="Changes" comment="" />
+      <created>1736277476475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736277476475</updated>
+    </task>
+    <servers />
+  </component>
+</project>

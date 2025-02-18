@@ -13,7 +13,7 @@ h1, h2, p, button {
     text-align: center;
     color: orange;
     font-size: xx-large;
-    font-family: "KastenLst Font";
+    font-family: "KastenLst Font", serif;
     border-radius: 25px;
 }
 

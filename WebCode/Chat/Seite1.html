@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilseite</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .profile {
+            width: 140px;
+            height: 140px;
+            background-color: orange;
+            border-radius: 50%;
+            border: 5px solid black;
+        }
+        .nav-button {
+            background: none;
+            border: none;
+            font-size: 40px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .username {
+            background-color: orange;
+            border: 2px solid black;
+            padding: 5px 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .stats {
+            background-color: orange;
+            border: 2px solid black;
+            padding: 5px 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            margin: 10px 0;
+        }
+        .background-toggle {
+            background-color: orange;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            font-weight: bold;
+        }
+        .toggle-buttons {
+            display: flex;
+            gap: 10px;
+            margin-right: 10px;
+        }
+        .toggle-buttons button {
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            padding: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <button class="nav-button" onclick="goBack()">⬅</button>
+            <div class="profile"></div>
+            <button class="nav-button" onclick="goToOtherPage()">➡</button>
+        </div>
+        <div class="username">@name</div>
+        <div class="stats">
+            <span>0 Folgt</span> | <span>0 @</span> | <span>0 Follower</span>
+        </div>
+        <div class="background-toggle">
+            <div class="toggle-buttons">
+                <button>✔</button>
+                <button>✖</button>
+            </div>
+            Hintergrund
+        </div>
+    </div>
+    
+    <script>
+        function goBack() {
+            window.location.href = 'index.html'; // Ersetze mit dem Dateinamen deiner vorherigen Seite
+        }
+        function goToOtherPage() {
+            window.location.href = '/Profiel/profiel.html'; // Ersetze mit der nächsten Seite
+        }
+    </script>
+</body>
+</html>

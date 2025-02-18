@@ -1,6 +1,6 @@
 @font-face {
     font-family: "KastenLst Font";
-    src: url("/WebCode/font.ttf") format("truetype");
+    src: url("/media/font.ttf") format("truetype");
 }
 
 body {
